@@ -1,0 +1,26 @@
+{
+    "name": "capcut-to-ig",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.ts",
+        "test": "ts-node src/t.ts",
+        "build": "tsc",
+        "start": "ts-node src/index.ts"
+    },
+    "dependencies": {
+        "async-mutex": "^0.5.0",
+        "axios": "^1.6.8",
+        "express": "^4.19.2",
+        "puppeteer-core": "^22.6.5"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
